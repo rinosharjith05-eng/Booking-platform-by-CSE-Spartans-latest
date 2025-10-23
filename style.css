@@ -1,0 +1,60 @@
+body {
+  background: linear-gradient(135deg,rgba(167, 57,255,1),rgba(57, 203, 255, 1));
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  min-height: 100vh;
+}
+
+.booking-card {
+  width: 100%;
+  max-width: 400px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+}
+
+.input-group-text {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: none;
+}
+
+.form-control,
+.form-select {
+  background-color: rgba(255, 255, 255, 0.15);
+  border: none;
+  color: white;
+}
+
+.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.btn {
+  border-radius: 10px;
+}
+
+input:focus, select:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+}
+
+.social-icons a:hover {
+  color: #ffd700;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #00b4d8;
+  transform: scale(1.2);
+}
